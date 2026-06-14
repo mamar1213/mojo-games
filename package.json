@@ -1,0 +1,22 @@
+{
+  "name": "mojo-games",
+  "version": "1.0.0",
+  "description": "Mojo Games — Mini Olympic KKN NR 11 UNTAG Surabaya",
+  "scripts": {
+    "dev:server": "nodemon server/index.js",
+    "dev:client": "cd client && npx vite",
+    "build": "cd client && npm install && npx vite build",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

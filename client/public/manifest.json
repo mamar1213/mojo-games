@@ -1,0 +1,13 @@
+{
+  "name": "Mojo Games — KKN Olympic 2026",
+  "short_name": "MojoGames",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1b4332",
+  "background_color": "#081c15",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
